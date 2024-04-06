@@ -1,0 +1,54 @@
+INFO [03-25|08:20:28.914] Running with private transaction manager disabled - quorum private transactions will not be supported 
+INFO [03-25|08:20:28.915] Maximum peer count                       ETH=50 LES=0 total=50
+DEBUG[03-25|08:20:28.915] FS scan times                            list="53.625µs" set="1.333µs" diff="1.459µs"
+TRACE[03-25|08:20:28.915] Handled keystore changes                 time="34.333µs"
+WARN [03-25|08:20:28.915] Using deprecated resource file /Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [03-25|08:20:28.915] Found deprecated node list file /Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/static-nodes.json, please use the TOML config file instead. 
+DEBUG[03-25|08:20:28.915] Sanitizing Go's GC trigger               percent=100
+INFO [03-25|08:20:28.915] Enabling recording of key preimages since archive mode is used 
+INFO [03-25|08:20:28.915] Set global gas cap                       cap=25,000,000
+INFO [03-25|08:20:28.915] Running with private transaction manager disabled - quorum private transactions will not be supported 
+TRACE[03-25|08:20:28.915] Started watching keystore folder         path=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/keystore
+INFO [03-25|08:20:28.916] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-25|08:20:28.916] Allocated cache and file handles         database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata cache=768.00MiB handles=5120
+DEBUG[03-25|08:20:28.951] Chain freezer table opened               database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata/ancient table=receipts items=0 size=0.00B
+DEBUG[03-25|08:20:28.956] Chain freezer table opened               database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata/ancient table=diffs    items=0 size=0.00B
+DEBUG[03-25|08:20:28.961] Chain freezer table opened               database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata/ancient table=headers  items=0 size=0.00B
+DEBUG[03-25|08:20:28.966] Chain freezer table opened               database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata/ancient table=hashes   items=0 size=0.00B
+DEBUG[03-25|08:20:28.971] Chain freezer table opened               database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata/ancient table=bodies   items=0 size=0.00B
+INFO [03-25|08:20:28.971] Opened ancient database                  database=/Users/guy1m0/Desktop/Repo/Blockchain-I-O/ethereum/raft/data/geth/chaindata/ancient readonly=false
+DEBUG[03-25|08:20:28.971] Current full block not old enough        number=0 hash=5fec95..faded0 delay=3,162,240
+DEBUG[03-25|08:20:28.971] Account Extra Data root                  hash=000000..000000
+INFO [03-25|08:20:28.971] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: 0 TransactionSizeLimit: 64 MaxCodeSize: 0 Petersburg: 0 Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>  Catalyst: <nil> YOLO v3: <nil> PrivacyEnhancements: <nil> PrivacyPrecompile: <nil> EnableGasPriceBlock: <nil> Engine: unknown}"
+INFO [03-25|08:20:28.972] Initialising Ethereum protocol           network=15 dbversion=<nil>
+INFO [03-25|08:20:28.972] Initialising Quorum consensus protocol   name=eth versions="[66 65 64 63]" network=15 dbversion=<nil>
+INFO [03-25|08:20:28.972] Using SegregatedCacheProvider. 
+DEBUG[03-25|08:20:28.972] Account Extra Data root                  hash=000000..000000
+INFO [03-25|08:20:28.972] Loaded most recent local header          number=0 hash=5fec95..faded0 td=1 age=55y1w20m
+INFO [03-25|08:20:28.972] Loaded most recent local full block      number=0 hash=5fec95..faded0 td=1 age=55y1w20m
+INFO [03-25|08:20:28.972] Loaded most recent local fast block      number=0 hash=5fec95..faded0 td=1 age=55y1w20m
+DEBUG[03-25|08:20:28.972] Account Extra Data root                  hash=000000..000000
+DEBUG[03-25|08:20:28.972] Account Extra Data root                  hash=000000..000000
+WARN [03-25|08:20:28.972] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [03-25|08:20:28.972] Rebuilding state snapshot 
+DEBUG[03-25|08:20:28.972] Journalled generator progress            progress=empty
+DEBUG[03-25|08:20:28.972] Start snapshot generation                root=c4e2c5..bd7fe3
+INFO [03-25|08:20:28.972] Resuming state snapshot generation       root=c4e2c5..bd7fe3 accounts=0 slots=0 storage=0.00B elapsed="93.75µs"
+DEBUG[03-25|08:20:28.972] Account Extra Data root                  hash=000000..000000
+TRACE[03-25|08:20:28.972] Detected outdated state range            kind=account prefix=0x61 last=0x err="wrong root: have 0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421 want 0xc4e2c50dc09fb89736a6d4998e0c0438f301896d16209d46b43f619d80bd7fe3"
+DEBUG[03-25|08:20:28.972] Account Extra Data root                  hash=000000..000000
+DEBUG[03-25|08:20:28.972] Reinjecting stale transactions           count=0
+INFO [03-25|08:20:28.973] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[03-25|08:20:28.973] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+WARN [03-25|08:20:28.973] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [03-25|08:20:28.973] permission-config.json file is missing. Smart-contract-based permission service will be disabled error="stat data/permission-config.json: no such file or directory"
+WARN [03-25|08:20:28.973] Using deprecated resource file data/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [03-25|08:20:28.973] Found deprecated node list file data/static-nodes.json, please use the TOML config file instead. 
+INFO [03-25|08:20:28.973] Etherbase automatically configured       address=0x2b50a4Fe2a6300116eDBcf2632D079A12aBf5f2d
+DEBUG[03-25|08:20:28.979] Regenerated state range                  kind=account prefix=0x61 root=c4e2c5..bd7fe3 last=0x count=800 created=800 updated=0 untouched=0 deleted=0
+DEBUG[03-25|08:20:28.979] Journalled generator progress            progress=done
+INFO [03-25|08:20:28.979] Generated state snapshot                 accounts=800 slots=0 storage=54.69KiB elapsed=6.557ms
+INFO [03-25|08:20:28.994] raft service registered 
+INFO [03-25|08:20:28.994] No plugins to initialise 
+INFO [03-25|08:20:28.994] Starting peer-to-peer node               instance=Geth/v1.10.3-stable(quorum-v23.4.0)/darwin-arm64/go1.20
+Fatal: Error starting protocol stack: listen tcp :30303: bind: address already in use

@@ -1,0 +1,6 @@
+**/.DS_Store
+log.txt
+data/geth 
+data/raft-snap 
+data/raft-wal 
+data/quorum-raft-state
